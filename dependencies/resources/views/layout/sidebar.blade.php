@@ -93,7 +93,7 @@
 <div class="nav-mobile">
     <div class="inside-nav d-flex">
        <div class="m-auto ">
-            <img class="mobile-logo" src="{{ asset('images/logojetsada.svg')}}" >
+            <img class="mobile-logo" src="{{ asset('front-ends-assets/images/logojetsada.svg')}}" >
         </div>
        <span class="color-w po-si-r burger-color" style="cursor:pointer " onclick="openNav()">&#9776;</span>
     </div>
