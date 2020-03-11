@@ -98,7 +98,6 @@
        <span class="color-w po-si-r burger-color" style="cursor:pointer " onclick="openNav()">&#9776;</span>
     </div>
     {{-- <div class="help-contact px-2 text-center">ID LINE : raklotto2 ,Tel : 062-4026406 </div> --}}
-    
 <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="{{route('index','home')}}">หน้าหลัก</a>
