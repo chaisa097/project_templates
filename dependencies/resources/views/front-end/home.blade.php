@@ -120,9 +120,9 @@
                     <a href="#">
                     <button class="btn btn-register">สมัครสมาขิก </button>
                     </a>
-                    {{-- <a href="#">
-                     <button class="btn btn-register">เข้าสู่เว็บไซค์ </button
-                    </a> --}}
+                    <a href="#">
+                     <button class="btn btn-register">เข้าสู่เว็บไซค์ </button>
+                    </a>
                 </div>
     </div>
 </div>

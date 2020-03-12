@@ -33,7 +33,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="nav navbar-nav nav-flex-icons ml-auto  m-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item {{$seo->slug == 'home'?'active':''}}">
                     <a class="nav-link" href="{{route('index','home')}}">หน้าหลัก
                             {{-- <span class="sr-only">(current)</span> --}}
                         </a>
@@ -41,17 +41,17 @@
                     <li class="nav-item">
                         <a class="nav-link " href="#"><span class="text-upderline">สมัครสมาชิก</span></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item {{$seo->slug == 'pay_rate'?'active':''}}">
                         <a class="nav-link" href="{{route('index','pay_rate')}}">อัตราการจ่าย</a>
                     </li>
                 
-                    <li class="nav-item">
+                    <li class="nav-item {{$seo->slug == 'special_privileges'?'active':''}}">
                         <a class="nav-link" href="{{route('index','special_privileges')}}">สิทธิพิเศษ</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item {{$seo->slug == 'business_partner'?'active':''}}">
                         <a class="nav-link" href="{{route('index','business_partner')}}">หุ้นส่วนธุรกิจ</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item {{$seo->slug == 'rules'?'active':''}}">
                         <a class="nav-link" href="{{route('index','rules')}}">กติกา</a>
                     </li>
                     {{-- <li class="nav-item">
@@ -70,7 +70,7 @@
                     {{-- <li class="nav-item">
                         <a class="nav-link" href="#">โปรโมชั่น</a>
                     </li> --}}
-                    <li class="nav-item">
+                    <li class="nav-item {{$seo->slug == 'contact'?'active':''}}">
                         <a class="nav-link" href="{{route('index','contact')}}">ติดต่อเรา</a>
                     </li>
                     {{-- <li class="nav-item">
