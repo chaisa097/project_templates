@@ -251,3 +251,20 @@
  .icon-destop {
      width: 376px;
  }
+ @media (max-width : 425px) {
+    
+    .posit {
+        position: relative;
+        right: auto;
+        display: inline-block;
+        text-align: center;
+    }
+    .btn-register {
+        width: 130px;
+        display: inline-block;
+        height: 40px;
+        margin: 0 4px;
+        text-align: center;
+    }
+    
+ }
